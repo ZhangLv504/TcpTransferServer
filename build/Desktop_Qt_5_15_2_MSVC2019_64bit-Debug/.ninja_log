@@ -1,0 +1,11 @@
+# ninja log v6
+11	383	7785731763578714	D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/TcpTransferServer_autogen/timestamp	9586fc2bf3e73c08
+753	2631	7785581595553233	CMakeFiles/TcpTransferServer.dir/TcpTransferServer_autogen/mocs_compilation.cpp.obj	a6be0ee57692b8f4
+467	1586	7785731768130096	CMakeFiles/TcpTransferServer.dir/widget.cpp.obj	1d6244be76e909d9
+11	383	7785731763578714	TcpTransferServer_autogen/timestamp	9586fc2bf3e73c08
+11	383	7785731763578714	TcpTransferServer_autogen/mocs_compilation.cpp	9586fc2bf3e73c08
+11	383	7785731763578714	D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/TcpTransferServer_autogen/mocs_compilation.cpp	9586fc2bf3e73c08
+384	1581	7785731767303200	CMakeFiles/TcpTransferServer.dir/main.cpp.obj	46d34e6e18142795
+1424	2727	7785274760409010	CMakeFiles/TcpTransferServer.dir/mytcpserver.cpp.obj	e5da69d198c38343
+1616	2656	7785731779619009	TcpTransferServer.exe	e3ca2ceef9bd9eea
+551	1616	7785731768971809	CMakeFiles/TcpTransferServer.dir/tcpserver.cpp.obj	103a57eb4c8c5f13
