@@ -82,6 +82,18 @@
 	"HEADERS" : 
 	[
 		[
+			"D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/debughelper.h",
+			"MU",
+			"EWIEGA46WW/moc_debughelper.cpp",
+			null
+		],
+		[
+			"D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/ipaddressui.h",
+			"MU",
+			"EWIEGA46WW/moc_ipaddressui.cpp",
+			null
+		],
+		[
 			"D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/protocalstruct.h",
 			"MU",
 			"EWIEGA46WW/moc_protocalstruct.cpp",
@@ -120,6 +132,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer",
 		"E:/Software/Qt/5.15.2/msvc2019_64/include",
 		"E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets",
 		"E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui",
@@ -145,6 +158,11 @@
 	"SETTINGS_FILE" : "D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/CMakeFiles/TcpTransferServer_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/ipaddressui.cpp",
+			"MU",
+			null
+		],
 		[
 			"D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/main.cpp",
 			"MU",

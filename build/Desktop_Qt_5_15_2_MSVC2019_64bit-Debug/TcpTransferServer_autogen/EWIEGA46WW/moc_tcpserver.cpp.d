@@ -4,6 +4,7 @@ D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/buil
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/QJsonDocument \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/QJsonObject \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/QMap \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qabstractitemmodel.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qalgorithms.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qarraydata.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qatomic.h \
@@ -18,6 +19,7 @@ D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/buil
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qcontainerfwd.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qcontainertools_impl.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qcontiguouscache.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qdatastream.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qdatetime.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qdebug.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qflags.h \
@@ -26,14 +28,17 @@ D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/buil
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qhash.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qhashfunctions.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qiodevice.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qitemselectionmodel.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qiterator.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qjsondocument.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qjsonobject.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qjsonvalue.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qline.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qlist.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qlocale.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qlogging.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qmap.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qmargins.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qmetatype.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qmutex.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qnamespace.h \
@@ -43,7 +48,9 @@ D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/buil
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qobjectdefs.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qobjectdefs_impl.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qpair.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qpoint.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qprocessordetection.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qrect.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qrefcount.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qregexp.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qregularexpression.h \
@@ -52,6 +59,7 @@ D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/buil
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qshareddata.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qsharedpointer.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qsharedpointer_impl.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qsize.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qstring.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qstringalgorithms.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qstringlist.h \
@@ -69,6 +77,30 @@ D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/buil
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qvarlengtharray.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qvector.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtCore/qversiontagging.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qbrush.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qcolor.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qcursor.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qfont.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qfontinfo.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qfontmetrics.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qicon.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qimage.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qkeysequence.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qmatrix.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qpaintdevice.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qpalette.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qpixelformat.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qpixmap.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qpolygon.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qregion.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qrgb.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qrgba64.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qtgui-config.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qtguiglobal.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qtransform.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qvalidator.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qwindowdefs.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtGui/qwindowdefs_win.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtNetwork/QTcpServer \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtNetwork/QTcpSocket \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtNetwork/qabstractsocket.h \
@@ -76,4 +108,23 @@ D:/Study/QtWidget/BaseQtProj/NetworkStudy/TcpSocketServer/TcpTransferServer/buil
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtNetwork/qtcpserver.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtNetwork/qtcpsocket.h \
   E:/Software/Qt/5.15.2/msvc2019_64/include/QtNetwork/qtnetwork-config.h \
-  E:/Software/Qt/5.15.2/msvc2019_64/include/QtNetwork/qtnetworkglobal.h
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtNetwork/qtnetworkglobal.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/QTableWidget \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qabstractitemdelegate.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qabstractitemview.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qabstractscrollarea.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qabstractslider.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qabstractspinbox.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qframe.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qrubberband.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qsizepolicy.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qslider.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qstyle.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qstyleoption.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qtabbar.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qtableview.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qtablewidget.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qtabwidget.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qtwidgets-config.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qtwidgetsglobal.h \
+  E:/Software/Qt/5.15.2/msvc2019_64/include/QtWidgets/qwidget.h

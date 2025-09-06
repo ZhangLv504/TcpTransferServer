@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_TcpTransferServer: phony || TcpTransferS
 build CMakeFiles\TcpTransferServer.dir\TcpTransferServer_autogen\mocs_compilation.cpp.obj: CXX_COMPILER__TcpTransferServer_unscanned_Debug D$:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer\build\Desktop_Qt_5_15_2_MSVC2019_64bit-Debug\TcpTransferServer_autogen\mocs_compilation.cpp || cmake_object_order_depends_target_TcpTransferServer
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -ID:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer\build\Desktop_Qt_5_15_2_MSVC2019_64bit-Debug\TcpTransferServer_autogen\include -external:IE:\Software\Qt\5.15.2\msvc2019_64\include -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtWidgets -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtGui -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtANGLE -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtCore -external:IE:\Software\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtNetwork -external:W0
+  INCLUDES = -ID:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer\build\Desktop_Qt_5_15_2_MSVC2019_64bit-Debug\TcpTransferServer_autogen\include -ID:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer -external:IE:\Software\Qt\5.15.2\msvc2019_64\include -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtWidgets -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtGui -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtANGLE -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtCore -external:IE:\Software\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtNetwork -external:W0
   OBJECT_DIR = CMakeFiles\TcpTransferServer.dir
   OBJECT_FILE_DIR = CMakeFiles\TcpTransferServer.dir\TcpTransferServer_autogen
   TARGET_COMPILE_PDB = CMakeFiles\TcpTransferServer.dir\
@@ -61,7 +61,7 @@ build CMakeFiles\TcpTransferServer.dir\TcpTransferServer_autogen\mocs_compilatio
 build CMakeFiles\TcpTransferServer.dir\main.cpp.obj: CXX_COMPILER__TcpTransferServer_unscanned_Debug D$:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer\main.cpp || cmake_object_order_depends_target_TcpTransferServer
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -ID:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer\build\Desktop_Qt_5_15_2_MSVC2019_64bit-Debug\TcpTransferServer_autogen\include -external:IE:\Software\Qt\5.15.2\msvc2019_64\include -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtWidgets -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtGui -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtANGLE -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtCore -external:IE:\Software\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtNetwork -external:W0
+  INCLUDES = -ID:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer\build\Desktop_Qt_5_15_2_MSVC2019_64bit-Debug\TcpTransferServer_autogen\include -ID:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer -external:IE:\Software\Qt\5.15.2\msvc2019_64\include -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtWidgets -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtGui -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtANGLE -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtCore -external:IE:\Software\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtNetwork -external:W0
   OBJECT_DIR = CMakeFiles\TcpTransferServer.dir
   OBJECT_FILE_DIR = CMakeFiles\TcpTransferServer.dir
   TARGET_COMPILE_PDB = CMakeFiles\TcpTransferServer.dir\
@@ -70,7 +70,7 @@ build CMakeFiles\TcpTransferServer.dir\main.cpp.obj: CXX_COMPILER__TcpTransferSe
 build CMakeFiles\TcpTransferServer.dir\widget.cpp.obj: CXX_COMPILER__TcpTransferServer_unscanned_Debug D$:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer\widget.cpp || cmake_object_order_depends_target_TcpTransferServer
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -ID:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer\build\Desktop_Qt_5_15_2_MSVC2019_64bit-Debug\TcpTransferServer_autogen\include -external:IE:\Software\Qt\5.15.2\msvc2019_64\include -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtWidgets -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtGui -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtANGLE -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtCore -external:IE:\Software\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtNetwork -external:W0
+  INCLUDES = -ID:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer\build\Desktop_Qt_5_15_2_MSVC2019_64bit-Debug\TcpTransferServer_autogen\include -ID:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer -external:IE:\Software\Qt\5.15.2\msvc2019_64\include -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtWidgets -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtGui -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtANGLE -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtCore -external:IE:\Software\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtNetwork -external:W0
   OBJECT_DIR = CMakeFiles\TcpTransferServer.dir
   OBJECT_FILE_DIR = CMakeFiles\TcpTransferServer.dir
   TARGET_COMPILE_PDB = CMakeFiles\TcpTransferServer.dir\
@@ -79,7 +79,16 @@ build CMakeFiles\TcpTransferServer.dir\widget.cpp.obj: CXX_COMPILER__TcpTransfer
 build CMakeFiles\TcpTransferServer.dir\tcpserver.cpp.obj: CXX_COMPILER__TcpTransferServer_unscanned_Debug D$:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer\tcpserver.cpp || cmake_object_order_depends_target_TcpTransferServer
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -ID:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer\build\Desktop_Qt_5_15_2_MSVC2019_64bit-Debug\TcpTransferServer_autogen\include -external:IE:\Software\Qt\5.15.2\msvc2019_64\include -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtWidgets -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtGui -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtANGLE -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtCore -external:IE:\Software\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtNetwork -external:W0
+  INCLUDES = -ID:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer\build\Desktop_Qt_5_15_2_MSVC2019_64bit-Debug\TcpTransferServer_autogen\include -ID:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer -external:IE:\Software\Qt\5.15.2\msvc2019_64\include -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtWidgets -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtGui -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtANGLE -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtCore -external:IE:\Software\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtNetwork -external:W0
+  OBJECT_DIR = CMakeFiles\TcpTransferServer.dir
+  OBJECT_FILE_DIR = CMakeFiles\TcpTransferServer.dir
+  TARGET_COMPILE_PDB = CMakeFiles\TcpTransferServer.dir\
+  TARGET_PDB = TcpTransferServer.pdb
+
+build CMakeFiles\TcpTransferServer.dir\ipaddressui.cpp.obj: CXX_COMPILER__TcpTransferServer_unscanned_Debug D$:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer\ipaddressui.cpp || cmake_object_order_depends_target_TcpTransferServer
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
+  INCLUDES = -ID:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer\build\Desktop_Qt_5_15_2_MSVC2019_64bit-Debug\TcpTransferServer_autogen\include -ID:\Study\QtWidget\BaseQtProj\NetworkStudy\TcpSocketServer\TcpTransferServer -external:IE:\Software\Qt\5.15.2\msvc2019_64\include -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtWidgets -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtGui -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtANGLE -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtCore -external:IE:\Software\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc -external:IE:\Software\Qt\5.15.2\msvc2019_64\include\QtNetwork -external:W0
   OBJECT_DIR = CMakeFiles\TcpTransferServer.dir
   OBJECT_FILE_DIR = CMakeFiles\TcpTransferServer.dir
   TARGET_COMPILE_PDB = CMakeFiles\TcpTransferServer.dir\
@@ -93,7 +102,7 @@ build CMakeFiles\TcpTransferServer.dir\tcpserver.cpp.obj: CXX_COMPILER__TcpTrans
 #############################################
 # Link the executable TcpTransferServer.exe
 
-build TcpTransferServer.exe: CXX_EXECUTABLE_LINKER__TcpTransferServer_Debug CMakeFiles\TcpTransferServer.dir\TcpTransferServer_autogen\mocs_compilation.cpp.obj CMakeFiles\TcpTransferServer.dir\main.cpp.obj CMakeFiles\TcpTransferServer.dir\widget.cpp.obj CMakeFiles\TcpTransferServer.dir\tcpserver.cpp.obj | E$:\Software\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib E$:\Software\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib E$:\Software\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib E$:\Software\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib E$:\Software\Qt\5.15.2\msvc2019_64\lib\qtmaind.lib || TcpTransferServer_autogen TcpTransferServer_autogen_timestamp_deps
+build TcpTransferServer.exe: CXX_EXECUTABLE_LINKER__TcpTransferServer_Debug CMakeFiles\TcpTransferServer.dir\TcpTransferServer_autogen\mocs_compilation.cpp.obj CMakeFiles\TcpTransferServer.dir\main.cpp.obj CMakeFiles\TcpTransferServer.dir\widget.cpp.obj CMakeFiles\TcpTransferServer.dir\tcpserver.cpp.obj CMakeFiles\TcpTransferServer.dir\ipaddressui.cpp.obj | E$:\Software\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib E$:\Software\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib E$:\Software\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib E$:\Software\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib E$:\Software\Qt\5.15.2\msvc2019_64\lib\qtmaind.lib || TcpTransferServer_autogen TcpTransferServer_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows
   LINK_LIBRARIES = E:\Software\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib  E:\Software\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib  E:\Software\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib  E:\Software\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib  E:\Software\Qt\5.15.2\msvc2019_64\lib\qtmaind.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -169,7 +178,7 @@ build TcpTransferServer_autogen_timestamp_deps: phony
 #############################################
 # Utility command for TcpTransferServer_autogen
 
-build TcpTransferServer_autogen: phony CMakeFiles\TcpTransferServer_autogen TcpTransferServer_autogen\include\ui_widget.h TcpTransferServer_autogen\timestamp TcpTransferServer_autogen\mocs_compilation.cpp TcpTransferServer_autogen_timestamp_deps
+build TcpTransferServer_autogen: phony CMakeFiles\TcpTransferServer_autogen TcpTransferServer_autogen\include\ui_widget.h TcpTransferServer_autogen\include\ui_ipaddressui.h TcpTransferServer_autogen\timestamp TcpTransferServer_autogen\mocs_compilation.cpp TcpTransferServer_autogen_timestamp_deps
 
 
 #############################################
@@ -186,7 +195,7 @@ build TcpTransferServer_autogen\timestamp TcpTransferServer_autogen\mocs_compila
 #############################################
 # Phony custom command for CMakeFiles\TcpTransferServer_autogen
 
-build CMakeFiles\TcpTransferServer_autogen TcpTransferServer_autogen\include\ui_widget.h | ${cmake_ninja_workdir}CMakeFiles\TcpTransferServer_autogen ${cmake_ninja_workdir}TcpTransferServer_autogen\include\ui_widget.h: phony TcpTransferServer_autogen\timestamp || TcpTransferServer_autogen_timestamp_deps
+build CMakeFiles\TcpTransferServer_autogen TcpTransferServer_autogen\include\ui_widget.h TcpTransferServer_autogen\include\ui_ipaddressui.h | ${cmake_ninja_workdir}CMakeFiles\TcpTransferServer_autogen ${cmake_ninja_workdir}TcpTransferServer_autogen\include\ui_widget.h ${cmake_ninja_workdir}TcpTransferServer_autogen\include\ui_ipaddressui.h: phony TcpTransferServer_autogen\timestamp || TcpTransferServer_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

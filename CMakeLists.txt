@@ -40,11 +40,18 @@ else()
             ${PROJECT_SOURCES}
             tcpserver.h tcpserver.cpp
             protocalstruct.h
+            debughelper.h
+            ipaddressui.cpp ipaddressui.h ipaddressui.ui
             
             # mytcpserver.h mytcpserver.cpp
         )
     endif()
 endif()
+
+# 添加头文件搜索路径
+target_include_directories(TcpTransferServer PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}
+)
 
 target_link_libraries(TcpTransferServer PRIVATE 
     Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Network
