@@ -37,33 +37,10 @@ Widget::Widget(QWidget *parent)
         ui->infosTextE->append(err);
     });
     
-    // // 处理客户端连接状态
-    // connect(m_server, &TcpServer::clientConnected, this,
-    //         [this](const QString &addr, quint16 port, qintptr socketDesc) {
-    //             int row = ui->clientsTableW->rowCount();
-    //             ui->clientsTableW->insertRow(row);
-                
-    //             ui->clientsTableW->setItem(row, 0, new QTableWidgetItem(QString::number(socketDesc)));
-    //             ui->clientsTableW->setItem(row, 1, new QTableWidgetItem(addr));
-    //             ui->clientsTableW->setItem(row, 2, new QTableWidgetItem(QString::number(port)));
-                
-    //             ui->infosTextE->append(LogWithTime(
-    //                 QString("客户端连接：%1:%2 (sd=%3)").arg(addr).arg(port).arg(socketDesc)));
-    //         });
-    // // 处理客户端断开连接状态
-    // connect(m_server, &TcpServer::clientDisconnected, this,
-    //         [this](qintptr socketDesc) {
-    //             for (int row = 0; row < ui->clientsTableW->rowCount(); ++row) {
-    //                 if (ui->clientsTableW->item(row, 0)->text().toInt() == socketDesc) {
-    //                     ui->clientsTableW->removeRow(row);
-    //                     break;
-    //                 }
-    //             }
-    //             ui->infosTextE->append(LogWithTime(
-    //                 QString("客户端断开：sd=%1").arg(socketDesc)));
-    //         });
-    
     ui->infosTextE->append(LogWithTime("程序启动完成"));
+    
+    ui->infosTextE->append(QString("Widget当前线程ID为：%1")
+                   .arg(QString::number(reinterpret_cast<quintptr>(QThread::currentThreadId()))));
 }
 
 Widget::~Widget()

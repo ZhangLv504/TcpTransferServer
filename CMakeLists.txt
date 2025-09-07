@@ -36,12 +36,16 @@ else()
 # Define properties for Android with Qt 5 after find_package() calls as:
 #    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
     else()
+        find_package(Qt5 REQUIRED COMPONENTS Core)
+
         add_executable(TcpTransferServer
             ${PROJECT_SOURCES}
-            tcpserver.h tcpserver.cpp
+            
             protocalstruct.h
             debughelper.h
             ipaddressui.cpp ipaddressui.h ipaddressui.ui
+            tcpworker.h tcpworker.cpp
+            tcpserver.h tcpserver.cpp
             
             # mytcpserver.h mytcpserver.cpp
         )
@@ -56,6 +60,7 @@ target_include_directories(TcpTransferServer PRIVATE
 target_link_libraries(TcpTransferServer PRIVATE 
     Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Network
 )
+target_link_libraries(TcpTransferServer PRIVATE Qt5::Core)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
